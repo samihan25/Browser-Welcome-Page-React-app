@@ -1,3 +1,3 @@
 # ReactApp 
 
-### Hit counter: [![HitCount](http://hits.dwyl.com/samihan25/React-app.svg)](http://hits.dwyl.com/samihan25/React-app)
+### Hit counter: [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsamihan25%2FReact-app)](https://hits.seeyoufarm.com)
