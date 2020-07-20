@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const my_name = "Samihan"
 const last_name = "Deshmukh"
 
 var today_date = new Date();
+//var today_date = new Date(2020, 7, 18, 7);  //for morning 7:00 AM
+//var today_date = new Date(2020, 7, 18, 14);  //for afternoon 2:00 PM
+//var today_date = new Date(2020, 7, 18, 22);  //for night 10:00 PM
 
 var greeting = "";
 var curr_hours = today_date.getHours();
@@ -43,7 +46,7 @@ ReactDOM.render(
     <h1 className="center_text">Hello {my_name}, {greeting} !</h1>
     <h1 className="time_text">{today_date.toLocaleTimeString()}</h1>
     <h1 className="center_text">{day_of_week}</h1>
-    <h2 className="center_text">{today_date.toLocaleDateString()}</h2>
+    <h2 className="center_text">{today_date.toLocaleDateString('en-GB')}</h2>
     <br /><hr></hr>
     {/*
     <h2>2 + 3 = {2 + 3}</h2>
@@ -53,7 +56,7 @@ ReactDOM.render(
     <h2>{`Current local time is : ${today_date.toLocaleTimeString ()}`}</h2>
     */}
 
-    <h1 className="heading">Notes:</h1>
+    <h1 className="heading boxed">Notes:</h1>
     <p contenteditable="true" className="center_text">This text is editable. Try to change this text. Click here and type something</p>
     <br /><br /><br /><hr></hr>
 
