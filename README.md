@@ -4,6 +4,9 @@ A simple Browser's welcome page. It shows welcome message and greetings accordin
 ## Project Hosted Link : [welcome-page.netlify.app](https://welcome-page.netlify.app/)
 <br />
 
+## Deploy status : [![Netlify Status](https://api.netlify.com/api/v1/badges/c1c42e17-a442-4b61-b895-b0ee973d57b5/deploy-status)](https://app.netlify.com/sites/welcome-page/deploys)
+<br />
+
 ## A demo video made by combining lot of screenshots of the welcome page
 <br />
 
