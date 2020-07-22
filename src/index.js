@@ -44,10 +44,9 @@ ReactDOM.render(
   // The React Way
   <React.Fragment>
     <h1 className="center_text">Hello {my_name}, {greeting} !</h1>
-    <div className="time_box"></div>
-    
-    <h1 className="time_text">{today_date.toLocaleTimeString()}</h1>
-
+    <div className="time_box">
+      <h1 className="time_text">{today_date.toLocaleTimeString()}</h1>
+    </div>
     <h1 className="center_text">{day_of_week}</h1>
     <h2 className="center_text">{today_date.toLocaleDateString('en-GB')}</h2>
     <br /><br /><br />
