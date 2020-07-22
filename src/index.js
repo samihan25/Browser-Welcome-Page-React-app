@@ -60,7 +60,7 @@ ReactDOM.render(
 
     <h1 className="heading boxed">Notes:</h1>
     <p contenteditable="true" className="center_text">This text is editable. Try to change this text. Click here and type something</p>
-    <br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br />
     {/*}
     <h2 className="heading">Random Image Gallery</h2>
     <br />
