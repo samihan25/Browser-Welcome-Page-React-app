@@ -7,10 +7,10 @@ import * as serviceWorker from './serviceWorker';
 const my_name = "Samihan"
 const last_name = "Deshmukh"
 
-//var today_date = new Date();
+var today_date = new Date();
 //var today_date = new Date(2020, 7, 18, 7);  //for morning 7:00 AM
 //var today_date = new Date(2020, 7, 18, 14);  //for afternoon 2:00 PM
-var today_date = new Date(2020, 7, 18, 21);  //for night 10:00 PM
+//var today_date = new Date(2020, 7, 18, 21);  //for night 10:00 PM
 
 var greeting = "";
 var curr_hours = today_date.getHours();
