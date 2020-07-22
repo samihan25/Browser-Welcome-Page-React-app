@@ -1,6 +1,8 @@
 # Simple Welcome page of browser using ReactJS
 A simple Browser's welcome page. It shows welcome message and greetings according to the current time. It has beautiful background images which changes each time page is refreshed. It has space to take some temporary notes. 
 
+## Project Hosted Link : [welcome-page.netlify.app](https://welcome-page.netlify.app/)
+<br />
 
 ## A demo video made by combining lot of screenshots of the welcome page
 <br />
