@@ -7,10 +7,10 @@ import * as serviceWorker from './serviceWorker';
 const my_name = "Samihan"
 const last_name = "Deshmukh"
 
-var today_date = new Date();
+//var today_date = new Date();
 //var today_date = new Date(2020, 7, 18, 7);  //for morning 7:00 AM
 //var today_date = new Date(2020, 7, 18, 14);  //for afternoon 2:00 PM
-//var today_date = new Date(2020, 7, 18, 22);  //for night 10:00 PM
+var today_date = new Date(2020, 7, 18, 21);  //for night 10:00 PM
 
 var greeting = "";
 var curr_hours = today_date.getHours();
@@ -44,10 +44,12 @@ ReactDOM.render(
   // The React Way
   <React.Fragment>
     <h1 className="center_text">Hello {my_name}, {greeting} !</h1>
-    <h1 className="time_text">{today_date.toLocaleTimeString()}</h1>
+    <div className="time_box">
+      <h1 className="time_text">{today_date.toLocaleTimeString()}</h1>
+    </div>
     <h1 className="center_text">{day_of_week}</h1>
     <h2 className="center_text">{today_date.toLocaleDateString('en-GB')}</h2>
-    <br /><hr></hr>
+    <br /><br /><br />
     {/*
     <h2>2 + 3 = {2 + 3}</h2>
     <h2>Random number = {Math.round(Math.random() * 100)}</h2>
@@ -58,8 +60,8 @@ ReactDOM.render(
 
     <h1 className="heading boxed">Notes:</h1>
     <p contenteditable="true" className="center_text">This text is editable. Try to change this text. Click here and type something</p>
-    <br /><br /><br /><hr></hr>
-
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    {/*}
     <h2 className="heading">Random Image Gallery</h2>
     <br />
     <div className="img_div">
@@ -78,6 +80,7 @@ ReactDOM.render(
       <img src="https://picsum.photos/209/309" alt="Some random images" />
     </div>
     <br /><br /><br />
+    {*/}
     <h4 className="center_text">{`${my_name} ${last_name}`}</h4>  
   </React.Fragment>,  // Also known as JSX (javascript extension or javascript XML) using babble
   document.getElementById('root')
