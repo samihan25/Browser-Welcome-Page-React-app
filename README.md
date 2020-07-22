@@ -5,7 +5,7 @@ A simple Browser's welcome page. It shows welcome message and greetings accordin
 ## A demo video made by combining lot of screenshots of the welcome page
 <br />
 
-![demo video](https://github.com/samihan25/React-app/blob/master/my_first_app/src/Demo_video.gif)
+![demo video](https://github.com/samihan25/React-app/blob/master/src/Demo_video.gif)
 
 
 ### Hit counter: 
