@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import CurrentTime from './components/CurrentTime'
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
 
@@ -45,7 +46,9 @@ ReactDOM.render(
   <React.Fragment>
     <h1 className="center_text">Hello {my_name}, {greeting} !</h1>
     <div className="time_box">
-      <h1 className="time_text">{today_date.toLocaleTimeString()}</h1>
+      {/* Adding React Component */}
+      {/* <h1 className="time_text">{today_date.toLocaleTimeString()}</h1> */}  
+      <CurrentTime />
     </div>
     <h1 className="center_text">{day_of_week}</h1>
     <h2 className="center_text">{today_date.toLocaleDateString('en-GB')}</h2>
